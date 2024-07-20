@@ -1,0 +1,126 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .header_div-left {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  header .header_div-left a {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  header .header_div-right {
+    display: flex;
+    padding: 30px 0;
+    gap: 10px;
+  }
+  header .header_div-right .header_div-right-a {
+    color: #DAE0E5;
+    border-right: #DAE0E5 1px solid;
+    padding-right: 10px;
+  }
+  header div a {
+    color: #FFAE00;
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 90%;
+    height: -moz-max-content;
+    height: max-content;
+    margin: 0 auto;
+  }
+  
+  .section .section__top h1 {
+    font-size: 24px;
+  }
+  .section .pp {
+    margin: 0;
+  }
+  .section .ppp {
+    color: #8E969E;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #8E969E;
+  }
+  .section .p {
+    color: #8E969E;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  .section .section__top-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .section .section__top-cards .section__top-cards-card {
+    border: 1px solid #8E969E;
+    padding: 30px;
+  }
+  .section .section__top-cards .section__top-cards-card .divv {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .section .section__top-cards .section__top-cards-card .divv div {
+    display: flex;
+    gap: 10px;
+  }
+  .section .section__top-cards .section__top-cards-card .section__top-cards-card-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section .section__top-cards .section__top-cards-card .section__top-cards-card-div h2 {
+    font-size: 16px;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .section__div{
+      
+    h1{
+      margin-left: 100px;
+    }
+   
+  }
+  .section__divv{
+    
+    h4{
+      margin-left: 40px;
+    }
+    p{
+      margin-left: 40px;
+    }
+  }
+  .section__divv--first{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 50px;
+  }
+  .section__div-leeft{
+    margin-left: 100px;
+    padding-top: 50px;
+
+    input{
+      width: 1000px;
+      height: 120px;
+      border-radius: 10px;
+    
+    }
+  }
+  .footer__div--ten{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+   
+    
+  }
